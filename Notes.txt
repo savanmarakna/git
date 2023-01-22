@@ -1,0 +1,36 @@
+---------Create repo & PUSH project---------------
+git init
+
+***to ignore secret files.
+----create .gitigmore file
+----write filename in new line which are to be secret
+
+git add .(adding into staging area)
+git rm --cached -r .(remove from staging area)
+
+git commit -m "<<Message>>"
+
+create repo on git-hub
+
+-copy path-
+
+git remote add origin(this name can be anything) -paste path-
+
+git push -u origin master
+
+
+
+other cmds
+git status(show changes in file)
+git log (log info.)
+git diff <file name> (show diff. between old file and changed file)
+git checkout (roll back changes)
+
+-------------create branch---------------------
+git branch <branch name>
+
+-------------switch branch---------------------
+git checkout <branch name>
+
+---------Clone project---------------
+git clone <paste the project link from gitHub>
